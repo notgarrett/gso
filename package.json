@@ -1,0 +1,25 @@
+{
+  "name": "Google-Sheets-Organizer-AE",
+  "version": "1.0.0",
+  "description": "Upgrade to GSO",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "author": "Garrett Giles",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "discord.js": "^13.0.1",
+    "googleapis": "^84.0.0",
+    "mongoose": "^5.13.5",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
